@@ -77,8 +77,8 @@ public class DefaultModelValidator implements ModelValidator {
     public static final String BUILD_ALLOW_EXPRESSION_IN_EFFECTIVE_PROJECT_VERSION =
             "maven.build.allowExpressionInEffectiveProjectVersion";
 
-    private static final Pattern CI_FRIENDLY_EXPRESSION = Pattern.compile("\\$\\{(.+?)}");
-    private static final Pattern EXPRESSION_PROJECT_NAME_PATTERN = Pattern.compile("\\$\\{(project.+?)}");
+    private static final Pattern CI_FRIENDLY_EXPRESSION = Pattern.compile("\\$\\{(.+?)\\}");
+    private static final Pattern EXPRESSION_PROJECT_NAME_PATTERN = Pattern.compile("\\$\\{(project.+?)\\}");
 
     private static final String ILLEGAL_FS_CHARS = "\\/:\"<>|?*";
 
