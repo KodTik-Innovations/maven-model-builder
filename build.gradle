@@ -68,7 +68,7 @@ publishing {
         shadow(MavenPublication) { publication ->            
             groupId = 'org.kodtik.ide'
             artifactId = 'maven-model-builder'
-            version = '3.9.11-beta' 
+            version = '3.9.11-beta01' 
          
             from(components.shadow)
         }
